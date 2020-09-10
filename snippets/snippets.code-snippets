@@ -1,7 +1,54 @@
 {
-  "Better Console Log": {
+  "DestinRFCP": {
+    "prefix": "fcp",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export default function ${1:${TM_FILENAME_BASE}}(props) {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$0",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "",
+      "}"
+    ]
+  },
+  "DestinReactIndex": {
+    "prefix": "dri",
+    "body": [
+      "import React from 'react'",
+      "import ReactDOM from 'react-dom'",
+      "",
+      "import 'index.css'",
+      "",
+      "import App from './components/App'",
+      "",
+      "ReactDOM.render(<App />, document.getElementById('app'))"
+    ]
+  },
+  "DestinPT": {
+    "prefix": "cpt",
+    "body": [
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "\t$0",
+      "}",
+    ]
+  },
+  "DestinUseEffect": {
+    "prefix": "due",
+    "body": [
+      "useEffect(() => {",
+      "\t$0",
+      "}, [])"
+    ]
+  },
+  "DestinConsoleLog": {
     "prefix": "cl",
-    "body": "console.log($0)",
-    "description": "A better console log"
+    "body": "console.log($0)"
   }
 }
