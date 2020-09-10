@@ -3,8 +3,9 @@
 ## javascript
 
 |Prefix | Method|
-|-:|-|
+|-:|:-|
 |`cl→`|`console.log()`|
+|`con→`|`const $1 = $0`|
 
 ## React
 
