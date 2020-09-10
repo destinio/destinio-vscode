@@ -5,6 +5,7 @@
 |Prefix | Method|
 |-:|:-|
 |`cl→`|`console.log()`|
+|`dcc→`|`console.log(CLIPBOARD)`|
 |`con→`|`const $1 = $0`|
 
 ## React

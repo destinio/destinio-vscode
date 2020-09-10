@@ -57,6 +57,6 @@
   },
   "Destin Clipboard console.log": {
     "prefix": "dcc",
-    "body": "console.log()"
+    "body": "console.log(${CLIPBOARD})"
   }
 }
