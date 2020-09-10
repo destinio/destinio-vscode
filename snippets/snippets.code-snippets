@@ -54,5 +54,9 @@
   "Destin Quick const": {
     "prefix": "con",
     "body": "const $1 = $0"
+  },
+  "Destin Clipboard console.log": {
+    "prefix": "dcc",
+    "body": "console.log()"
   }
 }
