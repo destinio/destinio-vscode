@@ -1,0 +1,7 @@
+{
+  "Better Console Log": {
+    "prefix": "cl",
+    "body": "console.log($0)",
+    "description": "A better console log"
+  }
+}

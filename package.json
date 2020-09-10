@@ -1,0 +1,34 @@
+{
+    "name": "destiniosnippets",
+    "displayName": "destiniosnippets",
+    "description": "snippets by destinio",
+    "icon": "icon.png",
+    "publisher": "destinio",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/destinio/destiniocodesnippets"
+    },
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
