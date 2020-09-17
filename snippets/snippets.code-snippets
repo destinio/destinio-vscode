@@ -58,5 +58,24 @@
   "Destin Clipboard console.log": {
     "prefix": "dcc",
     "body": "console.log(${CLIPBOARD})"
+  },
+  "CSS Reset": {
+    "prefix": "dreset",
+    "body": [
+      "* {",
+      "\tbox-sizing: border-box;",
+      "\tmargin: 0;",
+      "\tpadding: 0;",
+      "}",
+      "",
+      "body {",
+      "\tfont-family: sans-serif;",
+      "$0",
+      "}"
+    ]
+  },
+  "Add script to package.json": {
+    "prefix": "ds",
+    "body": "\"$1\": \"$2\"$0"
   }
 }
