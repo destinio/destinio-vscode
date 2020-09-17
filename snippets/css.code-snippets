@@ -1,0 +1,25 @@
+{
+  "dflex": {
+    "prefix": "dflex",
+    "body": [
+      "display: flex;",
+      "align-items: center;",
+      "justify-content: center;$0"
+    ]
+  },
+  "CSS Reset": {
+    "prefix": "dreset",
+    "body": [
+      "* {",
+      "\tbox-sizing: border-box;",
+      "\tmargin: 0;",
+      "\tpadding: 0;",
+      "}",
+      "",
+      "body {",
+      "\tfont-family: sans-serif;",
+      "\t$0",
+      "}"
+    ]
+  },
+}
