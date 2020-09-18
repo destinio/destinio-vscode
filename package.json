@@ -33,6 +33,13 @@
                 "language": "css",
                 "path": "./snippets/css.code-snippets"
             }
+        ],
+        "themes": [
+            {
+                "label": "DestinioTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DestinioTheme.json"
+            }
         ]
     }
 }
