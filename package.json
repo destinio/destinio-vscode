@@ -1,19 +1,20 @@
 {
-    "name": "destiniosnippets",
-    "displayName": "destiniosnippets",
-    "description": "snippets by destinio",
+    "name": "destinio",
+    "displayName": "destinio",
+    "description": "Destinio vscode things",
     "icon": "icon.png",
     "publisher": "destinio",
     "repository": {
       "type": "git",
       "url": "https://github.com/destinio/destiniocodesnippets"
     },
-    "version": "1.0.0",
+    "version": "2.0.0",
     "engines": {
         "vscode": "^1.49.0"
     },
     "categories": [
-        "Snippets"
+        "Snippets",
+        "Themes"
     ],
     "contributes": {
         "snippets": [
