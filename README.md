@@ -1,5 +1,7 @@
 # Snippets by Destinio
 
+## Theme credit goes to [@DustinSanders](https://github.com/dustinsanders) I have made minor changes to his [An Old Hope](https://github.com/dustinsanders/an-old-hope-theme-vscode) theme
+
 ## javascript
 
 |Prefix | Method|
