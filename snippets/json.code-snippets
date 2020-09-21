@@ -1,0 +1,6 @@
+{
+  "Add script to package.json": {
+    "prefix": "dss",
+    "body": "\"$1\": \"$2\"$0"
+  }
+}

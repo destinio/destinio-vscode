@@ -129,10 +129,6 @@
       "peekViewTitle.background": "#1c1d21",
       "peekViewTitleDescription.foreground": null,
       "peekViewTitleLabel.foreground": "#cbcdd2",
-      "merge.currentHeaderBackground": "#4fb4d8",
-      "merge.currentContentBackground": null,
-      "merge.incomingHeaderBackground": "#4fb4d8",
-      "merge.incomingContentBackground": null,
       "merge.border": null,
       "panel.background": "#1c1d21",
       "panel.border": "#3f4044",
@@ -212,7 +208,11 @@
       "activityBarBadge.background": "#FF762E",
       "breadcrumb.activeSelectionForeground": "#00B7DC",
       "breadcrumb.focusForeground": "#00B7DC",
-      "editor.selectionHighlightBorder": "#FF762E"
+      "editor.selectionHighlightBorder": "#FF762E",
+      "merge.currentHeaderBackground": "#79BC6588",
+      "merge.currentContentBackground": "#79BC6522",
+      "merge.incomingHeaderBackground": "#EF7C2B88",
+      "merge.incomingContentBackground": "#EF7C2B22"
   },
   "tokenColors": [
       { "name": "Global settings", "settings": { "background": "#1c1d21", "foreground": "#cbcdd2" } },

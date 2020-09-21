@@ -58,9 +58,5 @@
   "Destin Clipboard console.log": {
     "prefix": "dcc",
     "body": "console.log(${CLIPBOARD})"
-  },
-  "Add script to package.json": {
-    "prefix": "ds",
-    "body": "\"$1\": \"$2\"$0"
   }
 }

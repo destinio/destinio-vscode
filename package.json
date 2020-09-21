@@ -33,6 +33,14 @@
             {
                 "language": "css",
                 "path": "./snippets/css.code-snippets"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/json.code-snippets"
+            },
+            {
+                "language": "jsonc",
+                "path": "./snippets/json.code-snippets"
             }
         ],
         "themes": [
@@ -41,6 +49,13 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/DestinioTheme.json"
             }
-        ]
+        ],
+        "menus": {
+          "explorer/context": [
+            {
+              "command": "workbench.files.action.collapseExplorerFolders"
+            }
+          ]
+        }
     }
 }
